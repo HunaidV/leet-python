@@ -4,8 +4,8 @@ class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         array = {}
         
-        # Example: nums = [2,2,11,7,15], target = 9
-        for n in range(len(nums)):
+        # Example: nums = [2,2,11,7,15], target = 9 
+        for n in range(len(nums)): #range(5) -> 0,1,2,3,4
             difference = target - nums[n]
             
             if difference in array:
